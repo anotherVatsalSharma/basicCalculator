@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<p>Basic Calculator</p>
+
+	<div id="input">
+		<div id="num">
+			<label for="num1">Enter the first number</label>
+			<input type="number" name="num1" id="num1">
+		</div>
+		<div id="num">
+			<label for="num2">Enter the second number</label>
+			<input type="number" name="num2" id="num2">
+		</div>
+
+	</div>
+
+	<div>
+
+		<div id="op"><input type="submit" name="add" id="add" value="Add" onclick="add()"></div>
+		<div id="op"><input type="submit" name="subtract" id="sbtrct" value="Subtract" onclick="sbtrct()"></div>
+		<div id="op"><input type="submit" name="multiply" id="mult" value="Multiply" onclick="mult()"></div>
+		<div id="op"><input type="submit" name="divide" id="add" value="Divide" onclick="dvde()"></div>
+
+	</div>
+	<div id="hist">
+		<p>History</p>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>
